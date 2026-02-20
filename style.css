@@ -170,6 +170,7 @@ body.dark-mode footer {
         justify-content: center;
         gap: 5px;
         padding: 5px;
+        margin-top: 30px;
     }
     .nav a {
         padding: 6px 8px;
@@ -203,27 +204,27 @@ body.dark-mode footer {
     }
     .btn, .log {
         position: absolute;
-        top: 10px;
+        top: 8px;
         margin: 0;
-        padding: 6px 10px;
-        font-size: 11px;
+        padding: 5px 8px;
+        font-size: 10px;
     }
     .btn {
-        right: 80px;
+        right: 60px;
     }
     .log {
-        right: 10px;
+        right: 5px;
     }
     header {
-        padding: 50px 10px 20px;
+        padding: 45px 10px 15px;
         position: relative;
     }
     header h1 {
-        font-size: 1.5em;
+        font-size: 1.4em;
         margin-bottom: 5px;
     }
     header u {
-        font-size: 12px;
+        font-size: 11px;
         display: block;
     }
     header > .btn, header > .log {
