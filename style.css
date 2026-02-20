@@ -165,63 +165,93 @@ body.dark-mode footer {
 }
 @media (max-width: 768px) {
     .nav {
-        flex-direction: column;
-        gap: 10px;
-        padding: 0 10px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px;
+        padding: 5px;
     }
     .nav a {
-        padding: 8px 12px;
-        font-size: 14px;
+        padding: 6px 8px;
+        font-size: 11px;
+        white-space: nowrap;
     }
     .member {
         flex-direction: column;
         text-align: center;
-        padding: 15px;
+        padding: 12px;
+        margin: 10px 0;
     }
     .member img {
         margin-right: 0;
-        margin-bottom: 15px;
-        width: 120px;
-        height: 120px;
+        margin-bottom: 10px;
+        width: 100px;
+        height: 100px;
     }
     .member h2 {
-        font-size: 1.3em;
+        font-size: 1.1em;
+        margin: 5px 0;
     }
     .member p {
-        font-size: 14px;
+        font-size: 12px;
+        margin: 3px 0;
+    }
+    .member a {
+        padding: 6px 10px;
+        font-size: 11px;
+        margin-top: 8px;
     }
     .btn, .log {
-        position: static;
-        margin: 5px;
-        display: inline-block;
-        padding: 8px 15px;
-        font-size: 14px;
+        position: absolute;
+        top: 10px;
+        margin: 0;
+        padding: 6px 10px;
+        font-size: 11px;
+    }
+    .btn {
+        right: 80px;
+    }
+    .log {
+        right: 10px;
     }
     header {
-        padding: 20px 10px;
+        padding: 50px 10px 20px;
+        position: relative;
     }
     header h1 {
-        font-size: 1.8em;
+        font-size: 1.5em;
+        margin-bottom: 5px;
     }
     header u {
-        font-size: 14px;
+        font-size: 12px;
+        display: block;
+    }
+    header > .btn, header > .log {
+        position: absolute;
     }
     .container {
         padding: 10px;
     }
     #course-animation {
-        font-size: 1.2em;
+        font-size: 1em;
         width: 90%;
+        top: 12%;
     }
     .modal-content {
         width: 90%;
         max-width: 90%;
-        margin: 20% auto;
-        padding: 15px;
+        margin: 25% auto;
+        padding: 12px;
+    }
+    .modal-content h2 {
+        font-size: 1.2em;
+    }
+    .modal-content p {
+        font-size: 13px;
     }
     footer {
-        padding: 15px;
-        font-size: 14px;
+        padding: 12px;
+        font-size: 12px;
     }
 }
 
