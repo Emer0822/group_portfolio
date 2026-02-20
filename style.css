@@ -165,121 +165,24 @@ body.dark-mode footer {
 }
 @media (max-width: 768px) {
     .nav {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 5px;
-        padding: 5px;
-    }
-    .nav a {
-        padding: 6px 8px;
-        font-size: 11px;
-        white-space: nowrap;
+        flex-direction: column;
+        gap: 10px;
     }
     .member {
         flex-direction: column;
         text-align: center;
-        padding: 12px;
-        margin: 10px 0;
     }
     .member img {
         margin-right: 0;
-        margin-bottom: 10px;
-        width: 100px;
-        height: 100px;
-    }
-    .member h2 {
-        font-size: 1.1em;
-        margin: 5px 0;
-    }
-    .member p {
-        font-size: 12px;
-        margin: 3px 0;
-    }
-    .member a {
-        padding: 6px 10px;
-        font-size: 11px;
-        margin-top: 8px;
+        margin-bottom: 15px;
     }
     .btn, .log {
-        position: absolute;
-        top: 10px;
-        margin: 0;
-        padding: 6px 10px;
-        font-size: 11px;
-    }
-    .btn {
-        right: 80px;
-    }
-    .log {
-        right: 10px;
+        position: static;
+        margin: 10px;
+        display: inline-block;
     }
     header {
-        padding: 50px 10px 20px;
-        position: relative;
-    }
-    header h1 {
-        font-size: 1.5em;
-        margin-bottom: 5px;
-    }
-    header u {
-        font-size: 12px;
-        display: block;
-    }
-    header > .btn, header > .log {
-        position: absolute;
-    }
-    .container {
-        padding: 10px;
-    }
-    #course-animation {
-        font-size: 1em;
-        width: 90%;
-        top: 12%;
-    }
-    .modal-content {
-        width: 90%;
-        max-width: 90%;
-        margin: 25% auto;
-        padding: 12px;
-    }
-    .modal-content h2 {
-        font-size: 1.2em;
-    }
-    .modal-content p {
-        font-size: 13px;
-    }
-    footer {
-        padding: 12px;
-        font-size: 12px;
-    }
-}
-
-@media (max-width: 480px) {
-    .nav a {
-        padding: 6px 10px;
-        font-size: 12px;
-    }
-    .member img {
-        width: 100px;
-        height: 100px;
-    }
-    .member h2 {
-        font-size: 1.1em;
-    }
-    .member p {
-        font-size: 13px;
-    }
-    .member a {
-        padding: 6px 12px;
-        font-size: 12px;
-    }
-    header h1 {
-        font-size: 1.5em;
-    }
-    .btn, .log {
-        padding: 6px 12px;
-        font-size: 12px;
+        padding: 20px;
     }
 }
 
@@ -433,27 +336,19 @@ body.dark-mode .close-btn {
     right: 0;
     background: radial-gradient(circle, #ffb06b 0%, #e36a00 100%);
     z-index: 1000;
-    padding: 5px 10px;
+    padding: 10px 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 3px;
-}
-.nav.sticky-nav a {
-    padding: 4px 6px;
-    font-size: 10px;
 }
 .btn.sticky-nav, .log.sticky-nav {
     position: fixed;
-    top: 8px;
+    top: 10px;
     z-index: 1001;
-    background: rgba(255, 255, 255, 0.2);
-    padding: 5px 8px;
-    font-size: 10px;
+    background: rgba(255, 255, 255, 0.1);
 }
 .btn.sticky-nav {
-    right: 70px;
+    right: 120px;
 }
 .log.sticky-nav {
-    right: 10px;
+    right: 20px;
 }
