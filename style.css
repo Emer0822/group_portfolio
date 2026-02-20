@@ -418,3 +418,54 @@ body.dark-mode .close-btn {
 .log.sticky-nav {
     right: 10px;
 }
+
+/* Sticky Header Styles - Mobile Portrait */
+@media (max-width: 768px) {
+    .nav.sticky-nav {
+        padding: 10px 8px;
+    }
+    .nav.sticky-nav a {
+        padding: 8px 10px;
+        font-size: 11px;
+    }
+    .btn.sticky-nav, .log.sticky-nav {
+        top: 8px;
+        padding: 6px 10px;
+        font-size: 11px;
+    }
+    .btn.sticky-nav {
+        right: 70px;
+    }
+    .log.sticky-nav {
+        right: 5px;
+    }
+}
+
+/* Sticky Header Styles - Desktop (Bigger) */
+@media (min-width: 992px) {
+    .nav.sticky-nav {
+        padding: 15px 30px;
+        gap: 15px;
+    }
+    .nav.sticky-nav a {
+        padding: 12px 20px;
+        font-size: 16px;
+    }
+    .btn.sticky-nav, .log.sticky-nav {
+        top: 15px;
+        padding: 12px 20px;
+        font-size: 15px;
+    }
+    .btn.sticky-nav {
+        right: 140px;
+    }
+    .log.sticky-nav {
+        right: 30px;
+    }
+    header.sticky-header {
+        padding: 30px 20px;
+    }
+    header.sticky-header h1 {
+        font-size: 2em;
+    }
+}
